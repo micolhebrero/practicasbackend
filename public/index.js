@@ -53,4 +53,4 @@ socket.on("productos", (data) => {
 socket.on("messages", data => {
   updateMessages(data);
 
-})
+});

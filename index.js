@@ -1,5 +1,5 @@
-const { deco, indumentaria } = require("/products");
-const { ProductManager } = require("/ProductManager");
+const { deco, indumentaria } = require("./products.js");
+const { ProductManager } = require(".ProductManager.js");
 
 const productManager = new ProductManager();
 
